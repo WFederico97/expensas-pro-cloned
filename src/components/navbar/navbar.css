@@ -1,0 +1,7 @@
+.navBar .btn {
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: white;
+    font-weight: 600;
+}
