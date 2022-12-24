@@ -1,4 +1,5 @@
 import React from "react";
+import './heroe-greeting.css'
 
 export default function GreetingHeroe() {
   return (
@@ -20,7 +21,7 @@ export default function GreetingHeroe() {
           Te damos la bienvenida a una nueva experiencia en gestión de consorcios. Sistema integral para la administración de edificios y barrios privados.
           </p>
           <div class="d-grid  d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+            <button type="button" class="btn  btn-lg px-4 me-md-2 botonContactoHeroe">
                 Quiero que me contacten
             </button>
           </div>

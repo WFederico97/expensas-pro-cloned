@@ -1,0 +1,19 @@
+.botonContactoHeroe {
+    padding: 24px !important;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 50px !important;
+    filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.24));
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
