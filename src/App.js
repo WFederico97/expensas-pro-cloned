@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoginPage from './components/login/login';
 import NavBar from "./components/navbar/navbar";
 import GreetingHeroe from "./components/heroe-greeting/heroe-greeting";
+import { Button } from "reactstrap";
 
 
 
@@ -48,7 +49,7 @@ function App() {
       </section>
 
       <section id="section2" className="sectionHome2 d-flex col-12 justify-content-center">
-        <div className="col-6">
+        <div className="col-4 text-start p-4">
           <h2 className="title">
             Expensas accesibles con medios de pago
             integrados
@@ -62,14 +63,16 @@ function App() {
             <li>Reducir la morosidad</li>
             <li>Reducir la morosidad</li>
           </ul>
-          <img src="./images/medios_de_pago_big.webp" alt="medios de pago" className="img-fluid" />
+          <img src="./images/medios_de_pago_big.webp" alt="medios de pago" className="img-fluid mediosDePago" />
         </div>
-        <div className="col-6 ">
-          <img src="./images/ilust_3.svg" alt="ilustarcion 3" className="img-fluid" />
-          <button className="btn">Quiero que me contacten</button>
+        <div className="col-5 ">
+          <img src="./images/ilust_3.svg" alt="ilustracion 3" className="img-fluid ilustracion3" />
+          <Button outline-light className="botonContacto1">Quiero que me contacten </Button>
         </div>
       </section>
+      <section id="section3" className="sectionHome3 d-flex col-12 justify-content-center">
 
+      </section>
       <Routes>
         <Route path="/login" element={<LoginPage />} >
         </Route>
