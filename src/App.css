@@ -10,6 +10,8 @@
   height: 100%;
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .header {
@@ -48,9 +50,12 @@
 
 .mediosDePago {
   padding:5% 0% 5% 0%;
-  height: 12em 
+  height: 10em 
 }
 
+.ilustracion3 {
+  height: 30em;
+}
 .botonContacto1 {
   border-radius: 290486px;
   padding: 1rem 1.5rem !important;
@@ -66,6 +71,40 @@
     display: block;
     margin: auto !important;
 }
+
+.sectionHome3 {
+  margin-top: 100px;
+  padding: 0% 10% 5%;
+  position: relative;
+}
+.sectionHome3:before {
+  content: '';
+    display: block;
+    position: absolute;
+    width: 110%;
+    height: 90%;
+    top: 30%;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+    margin-left: -10%;
+    transform: skewY(-7deg);
+}
+
+.sectionHome4 {
+  padding: 10em;
+}
+
+
+ .sectionContacto{
+
+  height: 550px;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.04);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 70%;
+  padding-top: 100px;
+  padding: 0rem 1.5rem;
+} 
+
 /*login*/
 .loginPage{
   padding: 1em;
