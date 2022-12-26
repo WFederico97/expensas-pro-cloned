@@ -1,0 +1,29 @@
+.footer{
+    background-color: #0068FF;
+}
+
+.footerImg {
+    height: 8.5em;
+}
+.footerLink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+.footerLinks{
+    background: blue;
+    padding: 20px 100px;
+    padding-bottom: 30px;
+}
+
+a {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkedinProfile{ 
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
