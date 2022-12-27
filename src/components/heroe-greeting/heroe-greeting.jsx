@@ -8,7 +8,7 @@ export default function GreetingHeroe() {
         <div class="col-6 col-sm-8 col-lg-6">
           <img
             src="./images/hero_image1.png"
-            class="d-block mx-5 img-fluid"
+            class="d-block mx-5 img-fluid "
             alt="Bootstrap Themes"
             loading="lazy"
           />
