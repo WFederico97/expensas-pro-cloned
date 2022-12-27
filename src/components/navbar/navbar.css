@@ -5,3 +5,14 @@
     border-color: white;
     font-weight: 600;
 }
+
+ .navBar .btn:hover{
+    color: #1cd4b5 !important;
+    border-color: #1cd4b5 !important;
+    background-color: transparent !important;
+}
+
+
+.navigationLink:hover{
+    color: #1cd4b5 !important;
+}

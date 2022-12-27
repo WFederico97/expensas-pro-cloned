@@ -22,19 +22,19 @@ export default function NavBar() {
         <Collapse isOpen={!collapsed} navbar>
           <Nav className="d-flex col justify-content-end gap-3 align-items-center navBar"  navbar>
             <NavItem className="caracteristicas">
-              <NavLink className="text-light fw-bold" href="/components/">Caracteristicas</NavLink>
+              <NavLink className="text-light fw-bold navigationLink" href="/#section3">Caracteristicas</NavLink>
             </NavItem>
             <NavItem className="about">
-              <NavLink className="text-light fw-bold" href="/components/">Quienes Somos</NavLink>
+              <NavLink className="text-light fw-bold navigationLink" href="/#section4">Quienes Somos</NavLink>
             </NavItem>
             <NavItem className="qa">
-              <NavLink className="text-light fw-bold" href="/components/">Preguntas</NavLink>
+              <NavLink className="text-light fw-bold navigationLink" href="/preguntas#qaSection">Preguntas</NavLink>
             </NavItem>
-            <NavItem className="accesoVecinos btn  btn-outline-light">
-              <NavLink className="text-light fw-bold" href="/components/">Acceso Vecinos</NavLink>
+            <NavItem className="accesoVecinos btn  btn-outline">
+              <NavLink className="text-light fw-bold navigationLink" href="#">Acceso Vecinos</NavLink>
             </NavItem>
-            <NavItem className="accesoAdm btn  btn-outline-light">
-              <NavLink className="text-light fw-bold" href="https://github.com/reactstrap/reactstrap">
+            <NavItem className="accesoAdm btn  btn-outline">
+              <NavLink className="text-light fw-bold navigationLink" href="#">
                 Acceso Administrador
               </NavLink>
             </NavItem>
