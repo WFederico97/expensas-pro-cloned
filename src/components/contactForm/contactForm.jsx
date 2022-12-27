@@ -9,7 +9,7 @@ export default function FormularioContacto() {
       <Form className="text-start fw-bold">
         <FormGroup>
           <Label for="nombreCompleto">Nombre Completo*</Label>
-          <Input id="nombreCompleto" name="nombre" type="text" />
+          <Input id="nombreCompleto" name="nombre" type="text" placeholder="Nombre Apellido" />
         </FormGroup>
         <FormGroup>
           <Label for="Email">Email</Label>
@@ -22,11 +22,11 @@ export default function FormularioContacto() {
         </FormGroup>
         <FormGroup>
           <Label for="telefono">Teléfono*</Label>
-          <Input id="telefono" name="telefono" type="number" />
+          <Input id="telefono" name="telefono" type="number" placeholder="telefono con caracteristica" />
         </FormGroup>
         <FormGroup>
           <Label for="barrios">N° de Edificios/Barrios*</Label>
-          <Input id="barrios" name="barrios" type="number" />
+          <Input id="barrios" name="barrios" type="number" placeholder="En Número" />
         </FormGroup>
         <FormGroup>
           <Label for="consulta">Consulta</Label>

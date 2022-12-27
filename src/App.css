@@ -32,9 +32,10 @@ html {
 }
 
 /*section1*/
-.sectionHome1 {
+.sectionHome1  {
   padding: 3em;
 }
+
 
 .list {
   list-style-image: url('../public/images/bullet.svg');
