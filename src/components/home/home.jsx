@@ -5,6 +5,7 @@ import { Button } from "reactstrap";
 import FormularioContacto from "../contactForm/contactForm";
 
 export default function Home () {
+  
     return(
         <div>
             <section id="section1" className="sectionHome1 d-flex col-12 justify-content-center" >
@@ -12,12 +13,12 @@ export default function Home () {
             <img src="./images/ilust_2 (1).svg" alt="ilust 2" />
             <div className="d-flex col stats justify-content-center">
               <div className="col-3 text-start">
-                <span className="animated-counter">+1580</span>
+                <span className="animated-counter fw-bold ">+1580</span>
                 <br />
                 <p className="statsText"> Consorcios/Barrios lo utilizan en toda Argentina.</p>
               </div>
               <div className="col-3 text-start">
-                <span className="animated-counter">100%</span>
+                <span className="animated-counter fw-bold ">100%</span>
                 <br />
                 <p className="statsText">  de nuestros usuarios nos recomienda.</p>
               </div>
@@ -63,7 +64,7 @@ export default function Home () {
         </section>
         <section id="section4" className="sectionHome4 d-flex col-12 justify-content-center flex-wrap ">
           <div className="col-12 p-3">
-            <h2>¿Quienes Somos?</h2>
+            <h2 className="title">¿Quienes Somos?</h2>
           </div>
           <br />
           <div className="col-6">
