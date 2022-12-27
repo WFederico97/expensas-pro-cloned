@@ -25,7 +25,7 @@ export default function Footer() {
       <br/>
       <div className="d-flex col col-12 text-light text-center justify-content-between footerLinks">
         <p className="disclaimer col-12">Coded with <span>&#10084;</span> by <a className="linkedinProfile" target={'_blank'} rel='noreferrer'  href="https://www.linkedin.com/in/federico-wuthrich-668633164/">FEDev </a>
-            este sitio web NO DEBE SER UTILIZADO CON FINES COMERCIALES, SOLO CON FINES ACADÉMICOS
+            este sitio web NO DEBE SER UTILIZADO CON FINES COMERCIALES, SOLO CON FINES ACADÉMICOS. NO ES EL SITIO VERDADERO DE ESTA EMPRESA
          </p>
       </div>
     </div>
